@@ -59,7 +59,6 @@ a {
     color: var(--main-bg-color)
 }
 
-
 /****** Barre de Navigation ******/
 
 .navigation{
@@ -102,6 +101,72 @@ li{
 li:hover{
     color: #0065FC;
     border-color: #0065FC;
+}
+
+/*** Headline ***/
+
+.headline h1{
+    font-size: 22px;
+    margin: 0px;
+}
+
+.headline p{
+    margin: 8px 0px 35px;
+}
+
+/*** Formulaires ***/
+
+.form-localisation{
+    display: flex;
+    margin: 0px 0px 35px;
+    
+}
+
+.icone-search{
+    display: block;
+    width: 50px;
+    height: 49px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.fa-location-dot{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14px;
+    height: 18px;
+    color: black;
+}
+
+input{
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    outline: none;
+    padding: 0px 24px 0px 24px;
+    width: 147px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    width: 132px;
+    height: 49px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0065FC;
 }
 
 /****** Hebergements And Populaires ***********/
