@@ -59,6 +59,10 @@ a {
     color: var(--main-bg-color)
 }
 
+h3{
+    font-size: 18px;
+}
+
 /****** Barre de Navigation ******/
 
 .navigation{
@@ -119,6 +123,8 @@ li:hover{
 .form-localisation{
     display: flex;
     margin: 0px 0px 35px;
+    max-width: 377px;
+    width: 100%;
     
 }
 
@@ -157,7 +163,7 @@ input{
     font-weight: bold;
 }
 
-button{
+#search{
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
     width: 132px;
@@ -167,6 +173,65 @@ button{
     font-weight: bold;
     color: #FFFFFF;
     background-color: #0065FC;
+}
+
+/*** Filtres et Info Barre***/
+
+.filters{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 15px;
+    margin: 0px 0px 35px 0px;
+}
+
+.button-filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    gap: 10px;
+    padding: 4px 19px;
+    height: 50px;
+}
+
+.button-filters:hover{
+    background-color: #DEEBFF;
+}
+
+.button-filters .fa-solid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+}
+
+.infobar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 35px;
+}
+
+.fa-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+}
+
+.infobar p{
+    margin: 0;
 }
 
 /****** Hebergements And Populaires ***********/
